@@ -1,0 +1,26 @@
+# Visual Studio and .NET build output
+.vs/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# User-specific IDE files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Compiled artefacts
+*.dll
+*.exe
+*.pdb
+
+# Test and coverage output
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# Operating-system files
+.DS_Store
+Thumbs.db
