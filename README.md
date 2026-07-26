@@ -1,4 +1,5 @@
-# Text Analysis Tool
+# Foundational NLP Text Analysis Tool
+[![.NET build](https://github.com/Mohmdamirian/Foundational-NLP-Text-Analysis-Tool/actions/workflows/dotnet.yml/badge.svg)](https://github.com/Mohmdamirian/Foundational-NLP-Text-Analysis-Tool/actions/workflows/dotnet.yml)
 
 A C# console application that analyses plain-text documents using a custom
 binary search tree (BST). Each unique word is stored with its frequency and the
@@ -55,8 +56,8 @@ Install the [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0).
 Clone the repository and enter its directory:
 
 ```bash
-git clone https://github.com/Mohmdamirian/text-analysis-tool.git
-cd text-analysis-tool
+git clone https://github.com/Mohmdamirian/Foundational-NLP-Text-Analysis-Tool.git
+cd Foundational-NLP-Text-Analysis-Tool
 ```
 
 Run it with the included sample:
@@ -130,7 +131,8 @@ text-analysis-tool/
 ├── .gitignore
 ├── LICENSE
 ├── README.md
-└── TextAnalysisTool.sln
+├── TextAnalysisTool.sln
+└── original-academic-report.pdf
 ```
 
 ## Design decisions
@@ -153,6 +155,13 @@ case-insensitive rules and stored in lowercase for consistent output.
   linear scan.
 - A future version could add an AVL or red-black tree, automated tests,
   benchmarking, export to CSV/JSON and stop-word filtering.
+  
+## Academic report
+
+The [original academic report](original-academic-report.pdf) is included for
+project context. The application was subsequently refined for portfolio
+presentation, so some implementation details may differ from the submitted
+version.
 
 ## Data
 
