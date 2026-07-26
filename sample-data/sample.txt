@@ -1,0 +1,7 @@
+Data analysis turns raw information into evidence that can support decisions.
+A clear workflow checks data quality, records assumptions and communicates
+results carefully. Good analysis is reproducible, transparent and useful.
+
+This small document demonstrates the text analysis tool. The tool counts words,
+lists words alphabetically and records the lines where each word appears.
+
